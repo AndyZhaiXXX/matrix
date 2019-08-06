@@ -141,7 +141,6 @@ public class IssuesListActivity extends AppCompatActivity {
         }
 
         public void bind(Issue issue) {
-
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss:SSS");
             Date date = new Date(Long.parseLong(issue.getContent().optString("time")));
             tvTime.setText("IssueTime -> " + simpleDateFormat.format(date));
@@ -184,7 +183,6 @@ public class IssuesListActivity extends AppCompatActivity {
                 }
             }
         }
-
 
         public void showIssue(Issue issue) {
             String key = "stack";

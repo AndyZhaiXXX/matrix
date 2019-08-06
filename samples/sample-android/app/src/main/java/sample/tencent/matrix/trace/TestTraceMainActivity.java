@@ -43,7 +43,7 @@ import sample.tencent.matrix.issue.IssueFilter;
 
 public class TestTraceMainActivity extends Activity {
     private static String TAG = "Matrix.TestTraceMainActivity";
-    FrameDecorator decorator;
+//    FrameDecorator decorator;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -56,8 +56,8 @@ public class TestTraceMainActivity extends Activity {
             MatrixLog.i(TAG, "plugin-trace start");
             plugin.start();
         }
-        decorator = FrameDecorator.create(this);
-        decorator.show();
+//        decorator = FrameDecorator.create(this);
+//        decorator.show();
     }
 
     @Override
@@ -68,7 +68,7 @@ public class TestTraceMainActivity extends Activity {
             MatrixLog.i(TAG, "plugin-trace stop");
             plugin.stop();
         }
-        decorator.dismiss();
+//        decorator.dismiss();
     }
 
     public void testEnter(View view) {

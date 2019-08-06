@@ -46,6 +46,6 @@ public class TestEnterActivity extends Activity {
             data[i] = "MatrixTrace:" + i;
         }
         listView.setAdapter(new ArrayAdapter(this, android.R.layout.simple_list_item_1, data));
-        SystemClock.sleep(3000);
+        SystemClock.sleep(5000);
     }
 }
