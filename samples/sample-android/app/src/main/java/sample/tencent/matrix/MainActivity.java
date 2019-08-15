@@ -24,6 +24,7 @@ import android.view.View;
 import android.widget.Button;
 
 import sample.tencent.matrix.io.TestIOActivity;
+
 import sample.tencent.matrix.issue.IssuesMap;
 import sample.tencent.matrix.resource.TestLeakActivity;
 import sample.tencent.matrix.sqlitelint.TestSQLiteLintActivity;
